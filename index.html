@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" type="image/x-icon" href="public/assets/favicon.ico" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="public/cripts/init.js"></script>
+        <script src="public/scripts/loader.js"></script>
+        <script src="public/scripts/create_stars.js" defer></script>
+        <script>
+            const config = fetchConfig();
+            console.log(config);
+            loadAge(config["age"]);
+        </script>
+    </head>
+    <body>
+        <div class="stars"></div>
+
+        <!-- Menu Bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="divider"></div>
+
+        <div class="content">
+            <div class="container">
+                <img
+                    src="https://via.placeholder.com/280x180"
+                    alt="Placeholder"
+                    id="profile-picture"
+                />
+                <div class="text-container">
+                    <div class="text-content">
+                        <h1>Bennowo</h1>
+                        <p id="about-p">
+                            A <span id="age">14</span>-year-old who loves
+                            programming
+                        </p>
+                        <div
+                            class="socials-container"
+                            id="socials-container"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/socials.js"></script>
+    </body>
+</html>
