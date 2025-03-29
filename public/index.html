@@ -9,6 +9,7 @@
         />
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/stars.css" />
         <script src="scripts/init.js"></script>
         <script src="scripts/loader.js"></script>
         <script src="scripts/create_stars.js" defer></script>
@@ -24,10 +25,25 @@
                 }
             })();
         </script>
-    </head>
-    <body>
-        <div class="stars"></div>
+        <script>
+            var i = 0;
+            var txt = "Just a hobby developer who loves to code for fun!";
+            var speed = 60;
 
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("about-p").innerHTML +=
+                        txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+        </script>
+    </head>
+    <body onload="typeWriter()">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <!-- Menu Bar -->
         <nav>
             <ul>
@@ -43,22 +59,16 @@
         <div class="content">
             <div class="container">
                 <img
-                    src="https://via.placeholder.com/280x180"
-                    alt="Placeholder"
+                    src="assets/duck-dance.mp4"
+                    alt="profile-picture"
                     id="profile-picture"
                 />
                 <div class="text-container">
                     <div class="text-content">
                         <h1>Bennowo</h1>
-                        <p id="about-p">
-                            A <span id="age">14</span>-year-old who loves
-                            programming
-                        </p>
-                        <div
-                            class="socials-container"
-                            id="socials-container"
-                        ></div>
+                        <p id="about-p"></p>
                     </div>
+                    <div class="socials-container" id="socials-container"></div>
                 </div>
             </div>
         </div>

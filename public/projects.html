@@ -1,17 +1,20 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/projects.css" />
         <script src="scripts/create_stars.js"></script>
     </head>
     <body>
-        <div class="stars"></div>
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
 
         <!-- Menu Bar -->
         <nav>
@@ -22,5 +25,16 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="projects-container">
+            <h1 class="page-title">My Projects</h1>
+            <p class="page-subtitle">A collection of my work and experiments</p>
+            
+            <div class="projects-grid">
+                <!-- Projects will be loaded dynamically here -->
+            </div>
+        </div>
+
+        <script src="scripts/load_projects.js"></script>
     </body>
 </html>
