@@ -2,7 +2,7 @@ const socialConfig = [
   {
     name: "Discord",
     icon: "/assets/socials/discord.svg",
-    link: "https://discord.gg/XJnFAJxz9p",
+    link: "https://discord.com/users/bennowo",
   },
   {
     name: "GitHub",

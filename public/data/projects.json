@@ -1,70 +1,70 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "name": "Portfolio Website",
-            "description": "A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Features include smooth animations, dark mode, and a beautiful starry background.",
-            "image": "assets/portfolio.jpg",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "links": {
-                "github": "https://github.com/yourusername/portfolio",
-                "live": "https://yourportfolio.com"
-            }
-        },
-        {
-            "id": 2,
-            "name": "Project 2",
-            "description": "Description of your second project. Explain what it does, what problems it solves, and what makes it unique.",
-            "image": "assets/project2.jpg",
-            "technologies": ["React", "Node.js", "MongoDB"],
-            "links": {
-                "github": "https://github.com/yourusername/project2",
-                "live": "https://project2.com"
-            }
-        },
-        {
-            "id": 3,
-            "name": "Project 3",
-            "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
-            "image": "assets/project3.jpg",
-            "technologies": ["Python", "TensorFlow", "OpenCV"],
-            "links": {
-                "github": "https://github.com/yourusername/project3",
-                "live": "https://project3.com"
-            }
-        },
-        {
-            "id": 4,
-            "name": "Project 3",
-            "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
-            "image": "assets/project3.jpg",
-            "technologies": ["Python", "TensorFlow", "OpenCV"],
-            "links": {
-                "github": "https://github.com/yourusername/project3",
-                "live": "https://project3.com"
-            }
-        },
-        {
-            "id": 3,
-            "name": "Project 3",
-            "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
-            "image": "assets/project3.jpg",
-            "technologies": ["Python", "TensorFlow", "OpenCV"],
-            "links": {
-                "github": "https://github.com/yourusername/project3",
-                "live": "https://project3.com"
-            }
-        },
-        {
-            "id": 3,
-            "name": "Project 3",
-            "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
-            "image": "assets/project3.jpg",
-            "technologies": ["Python", "TensorFlow", "OpenCV"],
-            "links": {
-                "github": "https://github.com/yourusername/project3",
-                "live": "https://project3.com"
-            }
-        }
-    ]
-} 
+  "projects": [
+    {
+      "id": 1,
+      "name": "Timetable Manager",
+      "description": "The ultimate app to plan your schedule, stay on top of tasks, and manage tests effortlessly.",
+      "image": "data/assets/Timetable/app-icon-prev.png",
+      "technologies": ["Swift"],
+      "links": {
+        "github": "https://github.com/BennoCrafter/Timetable",
+        "live": "https://get-timetable.vercel.app"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Wallhaven Desktop",
+      "description": "Desktop app for Wallhaven natively written in SwiftUI",
+      "image": "https://github.com/BennoCrafter/wallhaven-desktop/raw/main/assets/home.png",
+      "technologies": ["Swift", "Kingfisher"],
+      "links": {
+        "github": "https://github.com/yourusername/project2",
+        "live": "https://wallhaven.cc"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Matrix Poll Bot",
+      "description": "A handy bot for creating and managing polls in Matrix rooms.",
+      "image": "assets/project3.jpg",
+      "technologies": ["Python", "simplematrixbotlib"],
+      "links": {
+        "github": "https://github.com/BennoCrafter/PollMatrixBot",
+        "live": "https://project3.com"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Project 3",
+      "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
+      "image": "assets/project3.jpg",
+      "technologies": ["Python", "TensorFlow", "OpenCV"],
+      "links": {
+        "github": "https://github.com/yourusername/project3",
+        "live": "https://project3.com"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
+      "image": "assets/project3.jpg",
+      "technologies": ["Python", "TensorFlow", "OpenCV"],
+      "links": {
+        "github": "https://github.com/yourusername/project3",
+        "live": "https://project3.com"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
+      "image": "assets/project3.jpg",
+      "technologies": ["Python", "TensorFlow", "OpenCV"],
+      "links": {
+        "github": "https://github.com/yourusername/project3",
+        "live": "https://project3.com"
+      }
+    }
+  ]
+}

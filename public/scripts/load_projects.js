@@ -1,27 +1,27 @@
 async function loadProjects() {
-    try {
-        const response = await fetch('/data/projects.json');
-        const data = await response.json();
-        const projectsGrid = document.querySelector('.projects-grid');
-        
-        // Clear existing content
-        projectsGrid.innerHTML = '';
-        
-        // Add each project to the grid
-        data.projects.forEach(project => {
-            const projectCard = createProjectCard(project);
-            projectsGrid.appendChild(projectCard);
-        });
-    } catch (error) {
-        console.error('Error loading projects:', error);
-    }
+  try {
+    const response = await fetch("/data/projects.json");
+    const data = await response.json();
+    const projectsGrid = document.querySelector(".projects-grid");
+
+    // Clear existing content
+    projectsGrid.innerHTML = "";
+
+    // Add each project to the grid
+    data.projects.forEach((project) => {
+      const projectCard = createProjectCard(project);
+      projectsGrid.appendChild(projectCard);
+    });
+  } catch (error) {
+    console.error("Error loading projects:", error);
+  }
 }
 
 function createProjectCard(project) {
-    const card = document.createElement('div');
-    card.className = 'project-card';
-    
-    card.innerHTML = `
+  const card = document.createElement("div");
+  card.className = "project-card";
+
+  card.innerHTML = `
         <div class="project-image">
             <img src="${project.image}" alt="${project.name}">
             <div class="project-overlay">
@@ -45,13 +45,13 @@ function createProjectCard(project) {
             <h3>${project.name}</h3>
             <p>${project.description}</p>
             <div class="project-tags">
-                ${project.technologies.map(tech => `<span>${tech}</span>`).join('')}
+                ${project.technologies.map((tech) => `<span>${tech}</span>`).join("")}
             </div>
         </div>
     `;
-    
-    return card;
+
+  return card;
 }
 
 // Load projects when the page loads
-document.addEventListener('DOMContentLoaded', loadProjects); 
+document.addEventListener("DOMContentLoaded", loadProjects);
