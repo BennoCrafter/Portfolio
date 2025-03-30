@@ -30,29 +30,29 @@
       "technologies": ["Python", "simplematrixbotlib"],
       "links": {
         "github": "https://github.com/BennoCrafter/PollMatrixBot",
-        "live": "https://project3.com"
+        "live": ""
       }
     },
     {
       "id": 4,
-      "name": "Project 3",
-      "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
+      "name": "TrackStar",
+      "description": "Hitster-inspired open-source game, where players guess the release year of songs to create a chronological timeline with the ability to use your own custom datasets.",
       "image": "assets/project3.jpg",
-      "technologies": ["Python", "TensorFlow", "OpenCV"],
+      "technologies": ["Python", "Swift"],
       "links": {
-        "github": "https://github.com/yourusername/project3",
-        "live": "https://project3.com"
+        "github": "https://github.com/bennocrafter/trackstar",
+        "live": ""
       }
     },
     {
-      "id": 3,
-      "name": "Project 3",
-      "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
-      "image": "assets/project3.jpg",
-      "technologies": ["Python", "TensorFlow", "OpenCV"],
+      "id": 5,
+      "name": "Observice",
+      "description": "Monitor location or objects easily with Observice integrated into Discord.",
+      "image": "https://github.com/BennoCrafter/Observice/blob/main/assets/observice.png?raw=true",
+      "technologies": ["Python"],
       "links": {
-        "github": "https://github.com/yourusername/project3",
-        "live": "https://project3.com"
+        "github": "https://github.com/bennocrafter/observice",
+        "live": ""
       }
     },
     {
