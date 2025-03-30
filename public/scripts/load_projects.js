@@ -21,10 +21,12 @@ function createProjectCard(project) {
   const card = document.createElement("div");
   card.className = "project-card";
 
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
   card.innerHTML = `
         <div class="project-image">
             <img src="${project.image}" alt="${project.name}">
-            <div class="project-overlay">
+            <div class="project-overlay ${isMobile ? "always-visible" : ""}">
                 <div class="project-links">
                     <a href="${project.links.live}" class="project-link" target="_blank" rel="noopener noreferrer">
                         View Project
@@ -47,6 +49,16 @@ function createProjectCard(project) {
             <div class="project-tags">
                 ${project.technologies.map((tech) => `<span>${tech}</span>`).join("")}
             </div>
+            ${
+              isMobile
+                ? `
+            <div class="mobile-project-links">
+                <a href="${project.links.live}" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                <a href="${project.links.github}" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            `
+                : ""
+            }
         </div>
     `;
 

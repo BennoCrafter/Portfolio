@@ -18,7 +18,7 @@
       "image": "https://github.com/BennoCrafter/wallhaven-desktop/raw/main/assets/home.png",
       "technologies": ["Swift", "Kingfisher"],
       "links": {
-        "github": "https://github.com/yourusername/project2",
+        "github": "https://github.com/BennoCrafter/wallhaven-desktop",
         "live": "https://wallhaven.cc"
       }
     },
@@ -53,17 +53,6 @@
       "links": {
         "github": "https://github.com/bennocrafter/observice",
         "live": ""
-      }
-    },
-    {
-      "id": 3,
-      "name": "Project 3",
-      "description": "Description of your third project. Highlight its key features and the technologies used to build it.",
-      "image": "assets/project3.jpg",
-      "technologies": ["Python", "TensorFlow", "OpenCV"],
-      "links": {
-        "github": "https://github.com/yourusername/project3",
-        "live": "https://project3.com"
       }
     }
   ]
