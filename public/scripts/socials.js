@@ -1,9 +1,9 @@
 const socialConfig = [
-  {
-    name: "Discord",
-    icon: "/assets/socials/discord.svg",
-    link: "https://discord.com/users/bennowo",
-  },
+  //{
+  //  name: "Discord",
+  //  icon: "/assets/socials/discord.svg",
+  //  link: "https://discord.com/users/bennowo",
+  //},
   {
     name: "GitHub",
     icon: "/assets/socials/github.svg",
